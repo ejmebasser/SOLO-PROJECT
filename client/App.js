@@ -18,9 +18,9 @@ function App() {
           </thead>
           <tbody>
             <StockRow ticker='aapl' />
-            <StockRow ticker='goog' />
+            {/* <StockRow ticker='goog' />
             <StockRow ticker='msft' />
-            <StockRow ticker='tsla' />
+            <StockRow ticker='tsla' /> */}
           </tbody>
         </table>
       </div>
