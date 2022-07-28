@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 console.log('start line 3');
+let array = ['aapl']
 
 class StockRow extends Component {
   constructor(props) {
@@ -34,6 +35,8 @@ class StockRow extends Component {
       </tr>
     );
   }
+
+
 }
-console.log('line 34');
+//console.log('line 34');
 export default StockRow;

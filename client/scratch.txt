@@ -1,0 +1,9 @@
+btnAdd.addEventListener('click', () => {
+    let template = `
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>`;
+    table.innerHTML += template;
+});

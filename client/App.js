@@ -9,8 +9,9 @@ function App() {
       <form>
         <div calss='input-row'>
           <label for='stock'>Stock Name</label>
-          <input type='text' name='Stock' id='stock' />
+          <input type='text' name='stock' id='stock' />
         </div>
+        <button>Submit</button>
       </form>
       <div className='App'>
         <div className='container'>
@@ -25,13 +26,11 @@ function App() {
             </thead>
             <tbody>
               <StockRow ticker='aapl' />
-              {/* <StockRow ticker='goog' />
-            <StockRow ticker='msft' />
-            <StockRow ticker='tsla' /> */}
             </tbody>
           </table>
-        </div>
       </div>
+      </div>
+
     </body>
   );
 }

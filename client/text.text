@@ -1,0 +1,15 @@
+    <script>
+      const tbodyEl = document.querySelector("tbody");
+      function onAddWebsite(e) {
+        const url = document.getElementById("stock").value;
+        tbodyEl.innerHTML += `
+            <tr>
+                <td>${stock}</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        `;
+      }
+      formEl.addEventListener("submit", onAddWebsite);
+    </script>
